@@ -8,7 +8,7 @@
 	$potencia = 3;
 	$cantidad = 100;
 
-	for ($i=1; $i < $cantidad; $i++) {
+	for ($i=1; $i <= $cantidad; $i++) {
 		$cuadrado = pow($i, $potencia);
 		echo "Numero: " . $i . " Cuadrado: " . $cuadrado . "<br>";
 	}
