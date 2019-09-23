@@ -5,7 +5,7 @@
 </head>
 <body>
   <?php
-  $edad = 21;
+  $edad = 37;
 
 	echo "El rango de edad es: ";
 	if (0<$edad && $edad<=10) {

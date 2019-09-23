@@ -6,19 +6,20 @@
 <body>
   <?php
   $n1 = 1;
-	$n2 = 2;
-	$n3 = 3;
+	$n2 = 10;
+	$n3 = 50;
 
-	echo "El mayor es: ";
-	if ($n1 < $n2 && $n2 < $n3) {
-		echo $n3;
+	if ($n1 == $n2 && $n1 == $n3) {
+		echo "Son iguales";
 	} else {
-		if ($n1 < $n2) {
-			echo $n2;
-		} else {
+		echo "El numero mas alto es: ";
+		if ($n1 >= $n2 && $n1 >= $n3) {
 			echo $n1;
+		} else if ($n2 >= $n1 && $n2 >= $n3) {
+			echo $n2;
+		} else if ($n3 >= $n1 && $n3 >= $n2) {
+			echo $n3;
 		}
-
 	}
 
    ?>
