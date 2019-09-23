@@ -5,7 +5,7 @@
 </head>
 <body>
   <?php
-  $palabra = "oso";
+  $palabra = "qwertytrewq";
 	$letras = str_split($palabra);
 	$j = sizeof($letras);
 	$espalindroma = true;
