@@ -6,7 +6,7 @@
 	<body>
 	  <?php
 		$total_compra = 20;
-		$tipo_compra = mascota;
+		$tipo_compra = ropa;
 		$envio = null;
 		$iva = null;
 		$envio = false;
